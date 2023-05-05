@@ -1,10 +1,8 @@
 const express= require("express");
+const routes=require("./routes")
 // console.log(express);
 const httpServer=express();
-httpServer.get("/",function(req,res){
-    console.log("Request Found");
-    res.send("I am BInaya");
-})
+httpServer.use(routes);
 httpServer.listen(5000,function(){
-    console.log("Server listening on port 3000")
+    console.log("Server listening on dnjd port 5000")
 });
