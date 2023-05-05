@@ -1,9 +1,13 @@
 const express=require("express");
 const router =express.Router();
 
-router.get("/",function(req,res){
+router.get("/hi",function(req,res){
     console.log("Request Found");
-    res.send("I am BInaya");
+    res.send("HI");
+})
+router.get("/bye",function(req,res){
+    console.log("Request Found");
+    res.send("BYE");
 })
 
 router.post("/",function(req,res){
