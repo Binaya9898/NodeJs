@@ -6,5 +6,5 @@ httpServer.get("/",function(req,res){
     res.send("I am BInaya");
 })
 httpServer.listen(5000,function(){
-    console.log("Server listening on port 5000")
+    console.log("Server listening on port 3000")
 });
