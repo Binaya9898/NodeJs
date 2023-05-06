@@ -4,5 +4,5 @@ const postSchema=mongoose.Schema({
     createdAt:Date,
     createdBy:String,
 });
-const post=mongoose.model("post",postSchema);
-module.exports(posts);
+const Post=mongoose.model("Post",postSchema);
+module.exports=Post;
